@@ -1,0 +1,54 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body
+{
+    position: relative;
+    font-size: 62.5%;
+}
+body
+{
+    font-size: 1.6rem;
+}
+
+.controls
+{
+    position: absolute;
+    top: 0;
+}
+
+img
+{
+    display: none;
+}
+
+button,
+label
+{
+    padding: 10px;
+    margin: 20px;
+    font-size: 4rem;
+    font-family: 'Bangers', cursive;
+    color: white;
+    background: black;
+    transition: 0.2s;
+    cursor: pointer;
+}
+button:hover,
+label:hover
+{
+    color: black;
+    background: white;
+}
+
+#input
+{
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
